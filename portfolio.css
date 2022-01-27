@@ -1,0 +1,134 @@
+body{
+	font-family: "Montserrat", sans-serif;
+}
+header{
+	background-color: DarkTurquoise	;
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	font-size: 30px;
+}
+a{
+	text-decoration: none;
+	color: black;
+	display: flex;
+}
+.name{
+	border: 2px solid #9FEE00;
+	border-radius: 5px;
+	padding-left: 20px;
+	background-color: #9FEE00;
+	width: 250px;
+}
+.zagolovok{
+	text-shadow: 10px 10px 10px rgb(29 115 115 / 38%);
+	position: absolute;
+	top: 100px;
+	color: #9FEE00;
+	font-size: 100px;
+	padding-left: 100px;
+}
+.text{
+	position: absolute;
+	top: 160px;
+	right: 200px;
+	font-size: 27px;
+}
+.samolet{
+	position: absolute;
+	top: 450px;
+}
+.rabotu{
+	position: absolute;
+	top: 450px;
+	right: 320px;
+	font-size: 27px;
+}
+.div{
+	background-color: #9FEE00;
+	width: 150px;
+	position: absolute;
+	bottom: 300px;
+	right: 900px;
+	text-align: right;
+	position: absolute;
+	bottom: 100px;
+
+
+}
+.div:hover{
+	transition: 15s ease ;
+	width: 5000px;
+	transform: translateZ(1000px);
+}
+.dropdown{
+	position: absolute;
+	display: inline-block;
+	top: 37px;
+	right:40px;
+}
+
+.dropdown-menu{
+	background-color: #fff;
+	padding: 10px 20px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 2.0);
+	border-radius: 7px;
+	visibility: hidden;
+	opacity: 0;
+	z-index: -1;
+	top: 100%;
+}
+.dropdown-menu a{
+	display: block;
+	width: 145px;
+	padding: 10px 0;
+	color: #000;
+	opacity: 0.7;
+	text-decoration: none;
+	font-size: 20px;
+}
+.dropdown-menu a:hover{
+	opacity: 1  ;
+}
+.dropdown-menu.show{
+	z-index: 99;
+	visibility: visible;
+	opacity: 1;
+	transition: 0.3s ease-out;
+	position: absolute;
+	top: calc(100% + 5px);
+	font-size: 20px;
+}
+button{
+	border: 2px solid #9FEE00;
+	border-radius: 5px;
+	font-size: 30px;
+	background-color: #9FEE00;
+}
+.cart1{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 30  px;
+	right: 250px;
+
+}
+.cart{
+	width: 50px;
+	height: 50px;
+	top: 30px;
+	position: absolute;
+	border-radius: 10px;
+	right: 320px;
+}
+.ob-mne{
+	position: absolute;
+	font-size: 20px;
+	right: 350px;
+	bottom: 20px;
+	border-radius: 10px;
+	border: 5px solid #9FEE00;
+	padding: 3px;
+}
